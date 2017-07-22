@@ -1,0 +1,36 @@
+.wy-nav-side {
+    background: #38b095;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #000000;
+    z-index: 100;
+}
+
+
+.wy-side-nav-search {
+    display: block;
+    width: 300px;
+    padding: 0.809em;
+    margin-bottom: 0.809em;
+    z-index: 100;
+    background-color: #38b095;
+    text-align: center;
+    padding: 0.809em;
+    display: block;
+    color: #fcfcfc;
+    margin-bottom: 0.809em;
+}
+
+.codeblock div[class^='highlight'], pre.literal-block div[class^='highlight'], .rst-content .literal-block div[class^='highlight'], div[class^='highlight'] div[class^='highlight'] {
+    border: none;
+    background: none;
+    margin: 0;
+    background: #f5f5f5;
+}

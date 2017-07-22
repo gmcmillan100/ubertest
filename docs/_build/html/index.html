@@ -1,0 +1,345 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Why I Picked this Section &mdash; Greg Writing Test for Uber 1.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/uber.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Greg Writing Test for Uber 1.0 documentation" href="#"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> Greg Writing Test for Uber
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Why I Picked this Section</a></li>
+<li><a class="reference internal" href="#python-3-5-installation-for-mac-10-11">Python 3.5 Installation for Mac 10.11</a></li>
+<li><a class="reference internal" href="#pytest-3-1-3-installation-for-python-3-5">Pytest 3.1.3 Installation for Python 3.5</a></li>
+<li><a class="reference internal" href="#pytest-software-versions">Pytest Software Versions</a></li>
+<li><a class="reference internal" href="#cache-system-files">Cache System Files</a></li>
+<li><a class="reference internal" href="#asserts-for-pytests">Asserts for Pytests</a></li>
+<li><a class="reference internal" href="#adding-to-this-doc-using-git">Adding to this Doc Using Git</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Greg Writing Test for Uber</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>Why I Picked this Section</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="why-i-picked-this-section">
+<h1>Why I Picked this Section<a class="headerlink" href="#why-i-picked-this-section" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://docs.pytest.org/en/latest/getting-started.html">https://docs.pytest.org/en/latest/getting-started.html</a></p>
+<p>How you improved this section
+A 1-2 paragraph summary of the information in the section, assuming modest technical knowledge of the reader
+This submission will measure your aptitude for writing about technical subjects as well as pure writing ability. A submission showcasing proper grammar, spelling, punctuation, and technical writing style and conventions is as important as the content itself.</p>
+<p>I wanted to test pytest using Python 3.5 on my mac, I had to install Python 3.5. Hit a few installation snags along the way. Adding them in my version.</p>
+<p>The Python 3 commands are different from Python 2.</p>
+<p>Doc assumes people have Python already installed. I did not. Show how to install.</p>
+<p>Not clear how to identify the software versions used to run against a test.</p>
+<p>After I ran my first test, two cache stores where created. These were not documented anywhere in the guide.</p>
+</div>
+<div class="section" id="python-3-5-installation-for-mac-10-11">
+<h1>Python 3.5 Installation for Mac 10.11<a class="headerlink" href="#python-3-5-installation-for-mac-10-11" title="Permalink to this headline">¶</a></h1>
+<p>Follow these steps to install a 32-bit i386/PPC version of Python 3.5 on Mac OS X El Capitan.</p>
+<ol class="arabic">
+<li><p class="first">Download the package at <a class="reference external" href="https://www.python.org/ftp/python/3.5.3/python-3.5.3-macosx10.5.pkg">python-3.5.3-macosx10.5.pkg</a>.</p>
+</li>
+<li><p class="first">Open the package installer, accept the license, and install the software.</p>
+</li>
+<li><p class="first">From the terminal, issue <code class="docutils literal"><span class="pre">python3</span> <span class="pre">-V</span></code> to display the installed version:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ python3 -V
+Python 3.5.3
+</pre></div>
+</div>
+</li>
+<li><p class="first">Use <code class="docutils literal"><span class="pre">which</span> <span class="pre">python3</span></code> to display the installation location:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ which python3
+/usr/local/bin/python3
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="pytest-3-1-3-installation-for-python-3-5">
+<h1>Pytest 3.1.3 Installation for Python 3.5<a class="headerlink" href="#pytest-3-1-3-installation-for-python-3-5" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p class="first">Use <code class="docutils literal"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">-U</span> <span class="pre">pytest</span></code> to download, collect, and install pytest:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pip3 install -U pytest
+Collecting pytest
+  Downloading pytest-3.1.3-py2.py3-none-any.whl (181kB)
+    100% |||||||||||| 184kB 2.6MB/s
+Collecting py&gt;=1.4.33 (from pytest)
+  Downloading py-1.4.34-py2.py3-none-any.whl (84kB)
+    100% |||||||||||| 92kB 7.2MB/s
+Collecting setuptools (from pytest)
+  Downloading setuptools-36.2.0-py2.py3-none-any.whl (477kB)
+    100% |||||||||||| 481kB 1.6MB/s
+Installing collected packages: py, setuptools, pytest
+  Found existing installation: setuptools 28.8.0
+    Uninstalling setuptools-28.8.0:
+      Successfully uninstalled setuptools-28.8.0
+Successfully installed py-1.4.34 pytest-3.1.3 setuptools-36.2.0
+</pre></div>
+</div>
+</li>
+<li><p class="first">Issue the <code class="docutils literal"><span class="pre">source</span></code> command to reload the <code class="docutils literal"><span class="pre">.bash_profile</span></code> in your home directory and apply the path updates to your active shell session:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ source ~/.bash_profile
+</pre></div>
+</div>
+</li>
+<li><p class="first">Print the installed version of pytest by using <code class="docutils literal"><span class="pre">pytest</span> <span class="pre">--version</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pytest --version
+This is pytest version 3.1.3, imported from /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pytest.py
+</pre></div>
+</div>
+</li>
+</ol>
+<p>..Note:: The output shows that pytest is associated with Python version 3.5.</p>
+</div>
+<div class="section" id="pytest-software-versions">
+<h1>Pytest Software Versions<a class="headerlink" href="#pytest-software-versions" title="Permalink to this headline">¶</a></h1>
+<p>The top output line of <code class="docutils literal"><span class="pre">pytest</span></code> displays the software versions that were used to process the test and in what directory:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pytest
+============= test session starts ===================
+platform darwin -- Python 3.5.3, pytest-3.1.3, py-1.4.34, pluggy-0.4.0
+rootdir: /Users/McMillan/greg/uber-test, inifile:
+collected 1 item s
+
+test_sample.py F
+
+================== FAILURES =======================
+...
+</pre></div>
+</div>
+</div>
+<div class="section" id="cache-system-files">
+<h1>Cache System Files<a class="headerlink" href="#cache-system-files" title="Permalink to this headline">¶</a></h1>
+<p>After a test is run, two cache stores will be created inside the testing directory. See <code class="docutils literal"><span class="pre">__pycache__</span></code> and <code class="docutils literal"><span class="pre">cache</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">__pycache__</span><span class="o">/</span><span class="n">test_sample</span><span class="o">.</span><span class="n">cpython</span><span class="o">-</span><span class="mi">35</span><span class="o">-</span><span class="n">PYTEST</span><span class="o">.</span><span class="n">pyc</span>
+<span class="o">.</span><span class="n">cache</span><span class="o">/</span><span class="n">v</span><span class="o">/</span><span class="n">cache</span><span class="o">/</span><span class="n">lastfailed</span>
+</pre></div>
+</div>
+<p>Use these as audit logs for your tests.</p>
+</div>
+<div class="section" id="asserts-for-pytests">
+<h1>Asserts for Pytests<a class="headerlink" href="#asserts-for-pytests" title="Permalink to this headline">¶</a></h1>
+<p>If an <code class="docutils literal"><span class="pre">assert</span></code> statement does not exist in your code, pytest will not display any assertion errors. An assert statement tells the program to test a condition and trigger an error if the condition is false.</p>
+<p>For example, this code does not contain an assert:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="k">def</span> <span class="nf">test_answer</span><span class="p">():</span>
+    <span class="n">func</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="mi">5</span>
+</pre></div>
+</div>
+<p>When pytest is run, no assertion error is reported:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pytest test_sample.py
+======================== test session starts =============================
+platform darwin -- Python 3.5.3, pytest-3.1.3, py-1.4.34, pluggy-0.4.0
+rootdir: /Users/McMillan/greg/uber-test, inifile:
+collected 1 item s
+
+test_sample.py .
+
+======================= 1 passed in 0.02 seconds =====================
+</pre></div>
+</div>
+<p>When a <code class="docutils literal"><span class="pre">assert</span></code> statement is added:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">test_answer</span><span class="p">():</span>
+    <span class="k">assert</span> <span class="n">func</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="mi">5</span>
+</pre></div>
+</div>
+<p>The pytest displays the error:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$ pytest test_sample.py
+=================== test session starts ==============================
+platform darwin -- Python 3.5.3, pytest-3.1.3, py-1.4.34, pluggy-0.4.0
+rootdir: /Users/McMillan/greg/uber-test, inifile:
+collected 1 item s
+
+test_sample.py F
+
+======================= FAILURES =====================================
+_______________________ test_answer ________________________________________
+
+    def test_answer():
+&gt;       assert func(3) == 5
+E       assert 4 == 5
+E        +  where 4 = func(3)
+
+test_sample.py:5: AssertionError
+====================================== 1 failed in 0.06 seconds =====================
+</pre></div>
+</div>
+</div>
+<div class="section" id="adding-to-this-doc-using-git">
+<h1>Adding to this Doc Using Git<a class="headerlink" href="#adding-to-this-doc-using-git" title="Permalink to this headline">¶</a></h1>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 Uber Tech Docs.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
