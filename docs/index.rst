@@ -16,14 +16,6 @@ When I began installing and testing pytest on my mac, it became apparent that se
 * :ref:`git` -- Depending on the team and project, I like to give developers an opportunity to update the docs directly (no tech writer bottlenecks). My new sections are stored in this `Git Ubertest Repo <https://github.com/gmcmillan100/ubertest/tree/master/docs>`_ and can be updated using the standard procedure.
 * Search -- The existing doc lacked search and a clean navigation, so I wrote my new sections inside a Sphinx framework.
 
-
-Summary of New Information
---------------------------
-
-A 1-2 paragraph summary of the information in the section, assuming modest technical knowledge of the reader
-This submission will measure your aptitude for writing about technical subjects as well as pure writing ability. A submission showcasing proper grammar, spelling, punctuation, and technical writing style and conventions is as important as the content itself.
-
-
 .. _pyinstall:
 
 Python 3.5 Installation for Mac 10.11
