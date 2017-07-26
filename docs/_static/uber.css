@@ -34,3 +34,9 @@
     margin: 0;
     background: #f5f5f5;
 }
+
+code, .rst-content tt, .rst-content code {
+    white-space: nowrap;
+    max-width: 100%;
+    background: rgba(56, 176, 149, 0.19);
+}
